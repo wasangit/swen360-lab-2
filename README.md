@@ -1,4 +1,4 @@
-# swen360lab2
+# swen360 lab 2
 Project idea and how it helps NASA/space 
 
 
