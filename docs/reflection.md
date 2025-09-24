@@ -1,6 +1,6 @@
 Daniah's reflection 
 
-I learned from this lab that GitHub is not only a place to keep your code but also a species of project planning and organizing! Remember I was also exposed to version control and project management as I studied how repositories, branches, issues were used with pull requests. “Remembering to make good commits with useful commit messages and creating / managing branches properly was one of the toughest things, but it was really cool seeing a new feature take shape bit by bit as we worked on things.”
+It was my first time using GitHub, and the experience was great. I realized it is more than just a code repository, it can also serve for project planning and team management. Organizing and distributing our work became an easier task using the repositories, branches, issues, pull requests, and the Scrum board. It took me some time to get acquainted with working with branches and writing clear commit messages, but I believe that it will be more enjoyable as I will keep working with GitHub in the following labs.
 
 Wasan's Reflection
 
