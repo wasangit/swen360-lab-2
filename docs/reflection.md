@@ -1,7 +1,10 @@
-our reflection is here 
 Daniah's reflection 
+
 I learned from this lab that GitHub is not only a place to keep your code but also a species of project planning and organizing! Remember I was also exposed to version control and project management as I studied how repositories, branches, issues were used with pull requests. “Remembering to make good commits with useful commit messages and creating / managing branches properly was one of the toughest things, but it was really cool seeing a new feature take shape bit by bit as we worked on things.”
 
+Wasan's Reflection
+
+This was my first time using GitHub so I learned a lot about it. Prior to this lab, I had no GitHub experience at all. One thing that I learned and was very important is how to create a project and issues. I had heard of the term Kanban board before but it became clearer to me now that I was able to explore GitHub and gain hands-on experience. What I found fun was brainstorming what idea we should decide on with my teammates. What I found challenging was the coding bit because prior to this my only experience with coding was Java. If I had more time, I would focus on improving the overall quality of the code to make it cleaner, more efficient, and easier to maintain. This is because the actual content wasn't part of the grading rubric, so my attention was dedicated towards other aspects of the assignment. 
 
 
 
