@@ -123,3 +123,18 @@ function showError(msg) {
 });
   });
 });
+git checkout -b feature/countdown-cleanup
+
+//Commit 1
+git add app.js index.html
+git commit -m "refactor(app): unify showError, remove duplicates, move launch-day UI into renderResult"
+
+//Commit 2
+git add app.js
+git commit -m "fix(validation): enforce min date on typed input and normalize day calculations"
+
+//Commit 3
+git add app.js index.html
+git commit -m "feat(ux): add save/load/clear helpers, focus management, and aria-live for announcements"
+
+git push origin feature/countdown-cleanup
