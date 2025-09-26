@@ -53,6 +53,16 @@ button {
 button.secondary {
   background: #384366;
 
+//style output differently
+  .output {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 16px;
+}
+.launch-day {
+  color: #00ff7f;
+  font-size: 2rem;
+}
   
 //add error messages and invalid style 
   .error { color: red; font-size: 0.9rem; }
