@@ -18,8 +18,15 @@ button {
 }
 button:hover {
   background: #4b63ff;
+   transform: translateY(-2px);
   
 }
+
+input:focus, button:focus {
+  outline: 2px solid #4b63ff;
+  outline-offset: 2px;
+}
+
 .container {
   width: min(640px, 92vw);
   background: #121a35;
@@ -50,6 +57,7 @@ button {
   background: #2a4bff;
   border: none;
   cursor: pointer;
+  transition: background 0.25s ease, transform 0.15s ease;
 }
 button.secondary {
   background: #384366;
