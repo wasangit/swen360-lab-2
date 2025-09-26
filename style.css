@@ -7,6 +7,17 @@ body {
   place-items: center;
   background: #0b1020;
   color: #e8ecff;
+  //Add background + theme colors 
+background: linear-gradient(to bottom, #0b1020, #1a1f3c);
+  color: #e8ecff;
+}
+button {
+  background: #2a4bff;
+  border-radius: 8px;
+}
+button:hover {
+  background: #4b63ff;
+  
 }
 .container {
   width: min(640px, 92vw);
@@ -42,6 +53,16 @@ button {
 button.secondary {
   background: #384366;
 
+//style output differently
+  .output {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 16px;
+}
+.launch-day {
+  color: #00ff7f;
+  font-size: 2rem;
+}
   
 //add error messages and invalid style 
   .error { color: red; font-size: 0.9rem; }

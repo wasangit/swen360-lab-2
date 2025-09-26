@@ -97,6 +97,14 @@ function showError(msg) {
     }
   });
 
+  //in relation to launch day output thing i did in style 
+if (diff === 0) {
+  output.textContent = `🚀 Today is launch day for ${name}!`;
+  output.classList.add("launch-day");
+} else {
+  output.textContent = `${diff} days left until ${name}.`;
+  output.classList.remove("launch-day");
+}
  // app.js 
 function showError(msg) {
   document.getElementById("error").textContent = msg;
