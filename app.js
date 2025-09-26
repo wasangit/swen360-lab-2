@@ -111,15 +111,12 @@ function showError(msg) {
 }
 
   clearBtn.addEventListener("click", () => {
-    localStorage.removeItem("missionCountdown");
-    clearBtn.hidden = true;
-
-    //clear button this is in relation to the index.html code 
-    document.getElementById("clearSaved").addEventListener("click", () => {
   localStorage.clear();
   missionNameEl.value = "";
   launchDateEl.value = "";
   output.textContent = "";
-});
+  clearBtn.hidden = true;
+
+
   });
 });
