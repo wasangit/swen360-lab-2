@@ -97,6 +97,11 @@ function showError(msg) {
     }
   });
 
+ // app.js 
+function showError(msg) {
+  document.getElementById("error").textContent = msg;
+}
+
   clearBtn.addEventListener("click", () => {
     localStorage.removeItem("missionCountdown");
     clearBtn.hidden = true;
