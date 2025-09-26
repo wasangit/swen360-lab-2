@@ -30,6 +30,11 @@ document.addEventListener("DOMContentLoaded", () => {
     clearBtn.hidden = false;
     renderResult();
   }
+  //for the purpose of a commit... 
+// app.js
+function showError(msg) {
+  document.getElementById("error").textContent = msg;
+}
 
   function showError(msg) {
     errorEl.textContent = msg || "";
