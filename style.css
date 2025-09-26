@@ -41,8 +41,14 @@ button {
 }
 button.secondary {
   background: #384366;
+
+  
+//add error messages and invalid style 
+  .error { color: red; font-size: 0.9rem; }
+.invalid { border-color: red; }
 }
 button:hover { filter: brightness(1.1); }
 .output { font-size: 1.25rem; margin-top: 8px; }
 .error { color: #ff8a8a; min-height: 1.25rem; margin: 4px 0 0; }
 .invalid { border-color: #ff8a8a !important; }
+
